@@ -1,0 +1,265 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px), (max-width: 750px) {
+
+/* Layout */
+
+body, html {
+	overflow-x:hidden !important;
+}
+
+section {
+	padding:50px 0;
+}
+
+#footer_container {
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.page-width {
+	width:90%;
+}
+
+.two-block-layout, .three-block-layout, .four-block-layout {
+	width:100%;
+	padding:0;
+	margin:20px auto;
+	display:inline-block;
+}
+
+.two-block-layout:first-of-type, .three-block-layout:first-of-type, .four-block-layout:first-of-type {
+	margin-top:0px;
+}
+
+.sermon-series-list li {
+	display:inline-block;
+	width:49%;
+	padding:0;
+	vertical-align: top;
+}
+
+.sermon-series-list li:first-of-type {
+	margin:20px auto;
+}
+
+/* Typography */
+
+h1 {
+	font-size:18px;
+}
+
+h2, h3, .alt, .intro-text p, blockquote {
+	font-size:16px;
+}
+
+.filtered-by, .tags {
+	font-size:12px;
+}
+
+/* Mobile Navigation */
+
+#header_container {
+	min-height:90px;
+	text-align: right;
+}
+
+	#header_main_logo {
+		background-image: url('../assets/images/logo_main.png');
+		background-size:contain;
+		height:100%;
+	}
+
+	.header_main_logo_mini {
+		background-image: url('../assets/images/logo_main.png') !important;
+	}
+
+	.mobile_nav_button {
+		display:inline-block;
+	}
+
+.mobile_nav_wrapper {
+	display:block;
+}
+
+
+.title-wrapper {
+	display:inline-block;
+	width:calc(100% - 120px);
+	padding-top:5px;
+}
+
+/* Carousel */
+
+#carousel {
+	margin-top:0px;
+	padding-bottom:100%;
+}
+
+.carousel-nav-left, .carousel-nav-right {
+	display:none;
+}
+
+.carousel-item-text {
+	width:90%;
+}
+
+.carousel-item span {
+	font-size:12px;
+}
+
+.carousel-button {
+	height:50px;
+	width:50px;
+	background-size:cover;
+}
+
+/* about */
+
+.action-button-title a {
+	width:100px;
+	height:100px;
+	margin:0px !important;
+	float:right;
+}
+
+.action-button-block {
+	min-height:120px;
+}
+
+.action-button-block img {
+	width:100px;
+	height:100px;
+	margin-top:-50px;
+	margin-left:-50px;
+}
+
+.action-button-title img:hover {
+	margin-top: -55px;
+	margin-left: -55px;
+	width:110px;
+	height:110px;
+}
+
+.intro-button-bg {
+	display:none;
+}
+
+.intro-text {
+	width:100%;
+	margin:0;
+}
+
+.intro-text p, blockquote {
+	width:100%;
+	margin:0 0 15px 0;
+	text-align: left;
+}
+
+#header_main_menu {
+	display:none;
+}
+
+
+
+.community-icon {
+	width:150px;
+	height:150px;
+	margin-bottom:20px;
+}
+
+#content {
+	margin-top:50px;
+}
+
+
+/* About */
+
+.leaders-block img {
+	width:50%;
+	float:none;
+	margin:0 auto 20px;
+	display:block;
+}
+
+.leaders-block p {
+	padding-left:0;
+}
+
+.staff-block, .ministry-block {
+	width:calc(50% - 5px);
+	margin-bottom:20px;
+}
+
+.staff-block img {
+	width:50%;
+}
+
+.location-map {
+	display:none;
+}
+
+/* Sermon */
+
+.modal-frame {
+	width:300px;
+	height:200px;
+	margin-top: -100px;
+	margin-left:-150px;
+}
+
+#filter ul li {
+	width: 30%;
+	margin: auto;
+	text-align: left;
+}
+
+#filter ul li:first-child {
+	text-align: left;
+}
+
+.filter-selection-ul li {
+	margin:0px;
+	display:inline-block;
+	width:30%;
+	text-align: center;
+}
+
+.sermon-list-block {
+	padding-bottom:20px;
+}
+
+.sermon-synopsis-wrapper p {
+	width:100%;
+	display:inline-block;
+}
+
+.sermon-expand-button {
+	position:relative;
+	margin:20px auto 0;
+}
+
+
+
+/* Events */
+
+#events-parallax {
+	background-size:cover !important;
+}
+
+/* Community Subpages */
+
+th {
+	font-size: 13px;
+	padding:10px 0 !important;
+	background-image:none !important;
+}
+
+td {
+	font-size:13px !important;
+}
+
+td a {
+	font-size:13px !important;
+}
+

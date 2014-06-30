@@ -1,0 +1,22 @@
+﻿Title: Home
+
+----
+
+Text: Yay! If you are seeing this, the installation of Kirby worked :)
+Now just give the links in the menu a try to see if URL redirection works as well.
+
+Check out the docs: <http://getkirby.com/docs> if you run into any problems or send me an email: <bastian@getkirby.com>
+
+Have fun with Kirby!
+
+----
+
+Eminfo: 9:00 AM
+
+----
+
+Kminfo: 9:30 AM and 11:00 AM
+
+----
+
+Yminfo: 11:30 AM

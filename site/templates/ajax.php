@@ -1,0 +1,1 @@
+<?php snippet('get_sermon_ajax') ?>

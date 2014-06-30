@@ -1,0 +1,2 @@
+x = ->
+	console.log('hello')

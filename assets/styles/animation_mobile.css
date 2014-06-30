@@ -1,0 +1,22 @@
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px), (max-width: 750px) {
+
+@-webkit-keyframes slideDown {
+  0%   { margin-top: 10px; opacity: 0; }
+  100% { margin-top: 0px; opacity: 1; margin-bottom: 10px; }
+}
+@-moz-keyframes slideDown {
+  0%   { margin-top: 10px; opacity: 0; }
+  100% { margin-top: 0px; opacity: 1; margin-bottom: 10px; }
+}
+@-o-keyframes slideDown {
+  0%   { margin-top: 10px; opacity: 0; }
+  100% { margin-top: 0px; opacity: 1; margin-bottom: 10px; }
+}
+@keyframes slideDown {
+  0%   { margin-top: 10px; opacity: 0; }
+  100% { margin-top: 0px; opacity: 1; margin-bottom: 10px; }
+}
+
+}
